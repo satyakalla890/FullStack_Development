@@ -1,0 +1,36 @@
+button:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+button:active {
+  background-color: darkgreen;
+  color: white;
+}
+
+a:link{
+    color: rgb(231, 118, 118);
+}
+a:hover{
+    color: rgb(159, 203, 242);
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(235, 221, 68);
+    font-size: 1.1em;
+}
+
+li:not(:hover){
+    color: rgb(123, 143, 224);
+}
+li:hover{
+    color: rgb(223, 223, 117);
+}
+
+#greet p{
+    display: none;
+}
+#greet:hover p{
+    display: block;
+    background-color: rgb(219, 122, 122);
+    padding: 10px;
+}

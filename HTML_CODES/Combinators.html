@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width initial-scale=1.0">
+        <title>Combinators in CSS</title>
+        <link rel="stylesheet" href="/CSS_SYTLING/Combinators_styles.css"
+    </head>
+    <body>
+        <h2>Descendants :</h2>
+        <div id="descendant" style="border: 2px solid;">
+            <p>This is #p1</p>
+            <p>This is #p2</p>
+            <div style="border: 2px solid; margin: 10px;">
+                <p>This is #p3</p>
+            </div>
+            <p>This is #p4</p>
+        </div>
+
+        <p>This is #p5</p>
+
+        <h2>Child :</h2>
+        <div class="child" style="border: 2px solid;">
+            <p>This is #p1</p>
+            <p>This is #p2</p>
+            <div style="border: 2px solid; margin: 10px;">
+                <p>This is #p3</p>
+            </div>
+            <p>This is #p4</p>
+        </div>
+        <p>This is #p5</p>
+
+        <h2>Adjacent Sibilings :</h2>
+        <div id="general_sib" style="border: 2px solid;">
+            <p>This is #p1</p>
+            <p>This is #p2</p>
+            <div style="border: 2px solid; margin: 10px;">
+                <p>This is #p3</p>
+            </div>
+            <p>This is #p4</p>
+        </div>
+        <p>This is #p5</p>
+        <p>This is #p6</p>
+
+        <h2>General Sibilings :</h2>
+        <div class="adjacent_sib" style="border: 2px solid;">
+            <p>This is #p1</p>
+            <p>This is #p2</p>
+            <div style="border: 2px solid; margin: 10px;">
+                <p>This is #p3</p>
+            </div>
+            <p>This is #p4</p>
+        </div>
+        <p>This is #p5</p>
+        <p>This is #p6</p>
+    </body>
+</html>

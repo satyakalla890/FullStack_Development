@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    border: 2px solid blue;
+    display: flow-root;
+    background-image: url(/HTML_CODES/Images/download.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#head1{
+    color: blue;
+}
+.odd{
+    color: green;
+}
+.even{
+    color: aliceblue;
+}
+#image{
+    float: left;
+}
+#image2{
+    float: right;
+}

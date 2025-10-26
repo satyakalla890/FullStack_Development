@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+.navi ul{
+    list-style-type: none;
+    background-color: rgb(230, 86, 86);
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    overflow: hidden;
+}
+.navi a{
+    text-decoration: none;
+    color: yellow;
+    padding: 15px;
+    display: block;
+    float: left;
+}
+.navi a:hover{
+    background-color: rgb(141, 0, 0);
+}
+body{
+    margin: 0px;
+}
+main{
+    margin: 20px;
+}
